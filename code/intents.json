@@ -1,0 +1,88 @@
+{
+  "intents": [
+      {
+          "intent": "greeting",
+          "examples": [
+              "Hi there!",
+              "Hello",
+              "Good morning"
+          ],
+          "criteria": "Detects user greetings or salutations.",
+          "response": "Hello! Welcome to Equitus, your Legal Assistance Bot. How can I assist you today?"
+      },
+      {
+          "intent": "goodbye",
+          "examples": [
+              "Goodbye",
+              "See you later",
+              "Bye for now"
+          ],
+          "criteria": "Detects user farewells or sign-offs.",
+          "response": "Goodbye! Feel free to return if you have more questions."
+      },
+      {
+          "intent": "scheme_application",
+          "examples": [
+              "How can I apply for government schemes for SC/ST?",
+              "Can you provide information about applying for schemes for SC/ST?",
+              "I want to know about central government schemes for SC/ST and how to apply."
+          ],
+          "criteria": "Recognizes user queries regarding applying for government schemes specifically designed for SC/ST individuals.",
+          "response": "Certainly! There are several central government schemes aimed at empowering SC/ST individuals. To apply, you typically need to visit the official website of the respective scheme or contact the designated authorities. Some common schemes include:\n\n1. Dr. Ambedkar Post Matric Scholarship for Economically Backward Classes: This scholarship provides financial assistance to SC/ST students for pursuing higher education. Eligible candidates can apply through the National Scholarship Portal.\n\n2. National Overseas Scholarship for SC/ST: This scheme offers financial support to SC/ST students for pursuing higher studies abroad. Interested applicants can find more details and apply through the Ministry of Social Justice and Empowerment website.\n\n3. Scheduled Caste Development Corporation Loan Scheme: This scheme provides loans at concessional rates to SC/ST entrepreneurs for setting up businesses. Applicants can contact their respective state SC/ST development corporations for application procedures and eligibility criteria.\n\nThese are just a few examples. There are many other schemes available for SC/ST individuals covering various sectors such as education, employment, housing, and healthcare. For more information about specific schemes and their application procedures, I recommend visiting the official websites of the concerned departments or agencies."
+      },
+      {
+          "intent": "abolition_of_bonded_labour_system",
+          "examples": [
+              "How can I avail assistance under the Abolition of Bonded Labour System scheme?",
+              "What is the process to get financial assistance for released bonded labourers?"
+          ],
+          "criteria": "Recognizes user queries regarding the Abolition of Bonded Labour System scheme and its application process.",
+          "response": "Under the Abolition of Bonded Labour System scheme, persons kept as bonded labour are released and rehabilitated. They receive financial assistance as a grant, amounting to Rs. 20,000. Upon release, Rs. 1,000 is provided immediately, with the remaining Rs. 19,000 allocated for rehabilitation through various means. Additionally, beneficiaries may receive house site pattas, housing under group housing schemes, drinking water facilities, and bank loan assistance."
+      },
+      {
+"intent":"schemes for sc and sts",
+"examples":[
+  "what are the schemes for sc and st's",
+  "what are the goverment laws for reserved people",
+  "what are the schemes for marginalised people"
+],
+"response":"there are several schemes for reserved people such as ,\n 1)Educational schemes \n 2)Medical schemes \n 3)housing schemes please provide the domain"
+      },
+      {
+"intent":"Education",
+"examples":[
+  "tell me educational policies for sc and sts",
+  "tell me eduactional policies for marginalised communities",
+  "educational beneficory for marginalised people"
+],
+"response":"1)Adi Dravidar and Tribal Welfare Department -Hostels - Special Guides 2) Adi Dravidar and Tribal Welfare Department -Incentive / Award of Prizes - District Level Prize plus2 Examination Rs.3000/- 10th Std First prize Rs.1000/- Second Prize Rs.500/- Third Prize Rs.300/. 3) Adi Dravidar and Tribal Welfare Department -Incentive / Award of Prizes - For each subjects (c) plus2 Examination Rs.2000/- (d)10th Std Examination Rs.1000/- 4)Adi Dravidar and Tribal Welfare Department -Scholarship - Free Education upto 12th Std. to all i.e. tuition fee will not be collected and the amount will be reimbursed by Government.5)Adi Dravidar and Tribal Welfare Department -Scholarship - Public Examination fee for 10th and 12th Std. 6)Adi Dravidar and Tribal Welfare Department - Stationary - Text Books"
+      },
+      {
+        "intent": "admission_of_adi_dravidar_tribal_students_in_plusone",
+        "examples": [
+          "How can Adi Dravidar and Tribal students secure admission in plus one at reputed schools?",
+          "What is the procedure for admitting Adi Dravidar and Tribal students in plus one?"
+        ],
+        "criteria": "Recognizes user queries regarding the admission process for Adi Dravidar and Tribal students in plus one at reputed schools.",
+        "response": "With the aim of providing quality education, 10 outstanding Adi Dravidar/Tribal students from each district, totaling 320 students, who secure the highest marks in X standard in government/corporation/municipal/Adi Dravidar and Tribal Welfare schools, are admitted in plus one in reputed private schools."
+      },
+      {
+        "intent": "all india service examinations",
+        "examples": [
+          "How can I get training for All India Service Examinations like IAS, IPS, IRS, etc.?",
+          "Where can I find information about free coaching for All India Service Examinations?"
+        ],
+        "criteria": "Recognizes user queries regarding free coaching and training for All India Service Examinations such as IAS, IPS, IRS, etc.",
+        "response": "The Pre-Examination Training Centre for All India Service Examinations offers free boarding, lodging, and coaching. This training is available to candidates with parental income below Rs. 1.00 lakh per annum. For those with parental income exceeding Rs. 1.00 lakh per annum, a monthly mess charge of Rs. 1200 applies."
+      },
+      {
+        "intent": "construction_of_free_houses_for_tribals",
+        "examples": [
+          "How can I avail of free housing for tribals?",
+          "Where can I find information about the construction of free houses for tribals?"
+        ],
+        "criteria": "Recognizes user queries regarding the construction of free houses for tribals.",
+        "response": "Under the Construction of Free Houses for Tribals scheme,  free houses are provided to tribals who possess free house site pattas. The construction of these houses is facilitated by the Commissioner,  Panchayat Union, District Adi Dravidar and Tribal Welfare Officer, or the concerned Commissioner of Tribal Welfare.  How to avail : Commissioner / Panchayat Union / District Adi dravidar and Tribal Welfare Officer / Commissioner of Tribal Welfare concerned"
+      }
+  ]
+}
